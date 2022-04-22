@@ -97,7 +97,9 @@ a {text-decoration: none;}
     justify-content: space-between;
     align-items: center;
     vertical-align:baseline;
-    padding: 2.5% 20%;
+    padding: 2.5% 0;
+    padding-left:10%;
+    padding-right:20%;
 }
 
 .nav-menu{
