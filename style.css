@@ -574,7 +574,7 @@ footer h5{
         padding-right: 10%;
         padding-top: 60px;
         padding-bottom: 60px;
-        transform:none;
+        transform: translate(-50%, -50%);
         margin:0;
     }
 }
@@ -645,7 +645,7 @@ footer h5{
         padding-right: 10%;
         padding-top: 60px;
         padding-bottom: 60px;
-        transform:none;
+        transform: translate(-50%, -50%);
         margin:0;
     }
 
