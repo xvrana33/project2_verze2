@@ -550,7 +550,7 @@ footer h5{
 
     #contact-forms{
         columns:1;
-        padding:0;
+        align-items: center;
     }
 
     footer{
@@ -574,9 +574,20 @@ footer h5{
         padding-right: 10%;
         padding-top: 60px;
         padding-bottom: 60px;
-        transform: translate(-50%, -50%);
+        transform: none;
         margin:0;
     }
+
+    .box:hover {
+        transform: none;
+      }
+      .box:hover .fa1{
+        transform: rotateY(-20deg) skewY(-3deg);
+      }
+    
+      .box:hover .text {
+        transform: rotateY(20deg) skewY(-3deg);
+      }
 }
 
  @media screen and (min-width:620px){
@@ -645,13 +656,24 @@ footer h5{
         padding-right: 10%;
         padding-top: 60px;
         padding-bottom: 60px;
-        transform: translate(-50%, -50%);
+        transform: none;
         margin:0;
     }
 
     .box .text div{
         padding-top:15%;
     }
+
+    .box:hover {
+        transform: none;
+      }
+      .box:hover .fa1{
+        transform: rotateY(-20deg) skewY(-3deg);
+      }
+    
+      .box:hover .text {
+        transform: rotateY(20deg) skewY(-3deg);
+      }
  }
 
 @media screen and (min-width:768px){
@@ -794,6 +816,22 @@ footer h5{
     h2 {
         text-align: left;
     }
+
+    .box:hover {
+        transform: translate(-50%, -50%) rotateY(-20deg) skewY(3deg);
+      }
+      .box:hover .fa1{
+        transform: rotateY(-20deg) skewY(-3deg);
+      }
+    
+      .box:hover .text {
+        transform: rotateY(20deg) skewY(-3deg);
+      }
+
+      #hello-me {
+        font-size: 1rem;
+        max-width: 1500px;
+    }
     
 }
 
@@ -838,5 +876,19 @@ footer h5{
         gap:2%;
     }
 
-  
+    .box:hover {
+        transform: translate(-50%, -50%) rotateY(-20deg) skewY(3deg);
+      }
+      .box:hover .fa1{
+        transform: rotateY(-20deg) skewY(-3deg);
+      }
+    
+      .box:hover .text {
+        transform: rotateY(20deg) skewY(-3deg);
+      }
+      
+      #hello-me {
+        font-size: 1.25rem;
+        max-width: 1800px;
+    }
 }
